@@ -1,9 +1,0 @@
-[2023-07-28 22:29:52.826]:main.go:18] fatal
-[2023-07-28 22:29:53.845] [WARNING] [main:main.go:16] warning
-[2023-07-28 22:29:53.845] [ERROR] [main:main.go:17] error
-[2023-07-28 22:29:53.845] [FATAL] [ [WARNING] [main:main.go:16] warning
-[2023-07-28 22:29:52.834] [ERROR] [main:main.go:17] error
-[2023-07-28 22:29:52.834] [FATAL] [mainmain:main.go:18] fatal
-[2023-07-28 22:29:54.849] [WARNING] [main:main.go:16] warning
-[2023-07-28 22:29:54.849] [ERROR] [main:main.go:17] error
-[2023-07-28 22:29:54.849] [FATAL] [main:main.go:18] fatal
