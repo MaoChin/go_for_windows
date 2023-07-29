@@ -91,6 +91,7 @@ func (l *LogFile) logPrint(logLevel LogLevel, msg *string, args ...interface{}) 
 	}
 	fmt.Fprintf(l.fileDes, "[%s] [%s] [%s:%s:%d] %s\n", now.Format("2006-01-02 15:04:05.000"),
 		getLogString(logLevel), funcName, fileName, lineNum, *msg)
+
 	if logLevel >= ERROR {
 		if l.checkSize(l.errFileDes) {
 			newFile := l.splitFile(l.errFileDes)
